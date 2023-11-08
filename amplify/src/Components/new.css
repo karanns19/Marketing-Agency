@@ -1,0 +1,237 @@
+/*Header Component*/
+.header {
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.headFirst {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+
+.headFirst h4 {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.headMid {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.headMid span {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.headLast {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+
+.blueButton {
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #3461FF;
+    cursor: pointer;
+}
+
+.blueButton:hover{
+    color: #3461FF;
+    background-color: white;
+    border: 1px solid #3461FF;
+}
+
+/*Header Component*/
+
+/*Main Component*/
+.main {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.leftMain {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftMain h1 {
+    font-size: 72px;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+.leftMain2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.leftMain2 h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.leftMain p {
+    font-size: 18px;
+}
+
+.leftMain input[type="text"] {
+    width: 300px;
+    height: 40px;
+    background-color: #FAFAFA;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.rightMain {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightMain img {
+    width: 85%;
+    height: 85%;
+}
+
+.rightMain2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightMain2 img {
+    width: 85%;
+    height: 100%;
+}
+
+.main2 {
+    margin-top: 10%;
+}
+
+.main2 h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.gridCont {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: 5%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+}
+
+.main3 {
+    margin-top: 10%;
+}
+
+.main3 h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.main3 p {
+    text-align: center;
+}
+
+.gridCont2 {
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.gridCont3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main4 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+}
+
+.main5{
+    padding: 10%;
+}
+
+.banner{
+    background-color: #232038;
+    border-radius: 25px;
+    padding: 5%;
+    display: flex;
+}
+
+.leftBanner{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: start;
+}
+
+.leftBanner h1{
+    color: white;
+    font-size: 48px;
+}
+
+.rightBanner{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+}
+
+img{
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(1.1);
+}
+/*Main Component*/
+
+/*Footer Component*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+    color: white;
+}
+
+.footer span{
+    margin-right: 50px;
+}
+/*Footer Component*/
